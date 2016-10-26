@@ -5,8 +5,8 @@
     'Scary bat file for Trojan virus
     Process.Start("virus.bat")
 
-    'Wait 2 seconds to open NTKRNL dialog
-    Threading.Thread.Sleep(5000)
+    'Wait 15 seconds to open NTKRNL dialog
+    Threading.Thread.Sleep(15000)
 
     'Open Msgbox to avoid having to wait for user click to continue
     Dim t As New System.Threading.Thread(AddressOf ShowMSG)
@@ -23,6 +23,9 @@
 
     'Disable Keyboard while form Is open
     BlockInput(1)
+
+    'This will make the computer Restart
+    'System.Diagnostics.Process.Start("shutdown", "-r -t 00")
 
   End Sub
 
