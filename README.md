@@ -13,9 +13,9 @@ The concept was to disable almost completely an eventual user response to this f
 
 ###How to use
 
-1) Download and open the .sln file in Visual Studio*
-2) Execute virus/bin/Debug/virus.exe
-3) Follow instructions stated in upper paragraph to regain control of your system
+1. Download and open the .sln file in Visual Studio*
+2. Execute virus/bin/Debug/virus.exe
+3. Follow instructions stated in upper paragraph to regain control of your system
 
 #We guarantee no harm is done to your computer.
 
